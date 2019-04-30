@@ -90,7 +90,7 @@ img { border: none; outline: none; }
 #header .navbar.navbar-default {
   min-height: 40px;
   border: none;
-  background-color: transparent;
+  background-color: #191919;
   background-image: none;
   -moz-border-radius: 0;
 	-khtml-border-radius: 0;
