@@ -3595,7 +3595,7 @@ ul.newforumposts-menu li.media .media-body .text-muted {
 }
 
 
-/* Comments */
+/* Comments for max. 2.1.9 */
 #comments-container.media-list {
   margin-bottom: 20px;
 }
@@ -3724,6 +3724,138 @@ ul.newforumposts-menu li.media .media-body .text-muted {
 #comments-container.media-list li.comment-box .comment-box-right a:hover.e-comment-edit::after,
 #comments-container.media-list li.comment-box .comment-box-right a:hover.e-comment-delete::after,
 #comments-container.media-list li.comment-box .comment-box-right a:hover.e-comment-approve::after {
+  color: #d5685a;
+}
+
+/* Comments for min. 2.2.0 */
+.comments-container.media-list {
+  margin-bottom: 20px;
+}
+.comments-container.media-list li.comment-box {
+  min-height: 100px;  
+}
+.comments-container.media-list li.comment-box .comment-box-left {
+  width: 75px;
+  min-height: 100px;
+  font-size: 14px;
+  font-style: italic;
+  color: #fff;
+  background-color: #535353;
+  text-align: center;
+  padding: 10px;
+}
+.comments-container.media-list li.comment-box .comment-box-left .comment-icon {
+  font-size: 22px;
+  padding-bottom: 10px;
+}
+.comments-container.media-list li.comment-box .comment-box-right {
+  overflow: hidden;
+  min-height: 100px;
+  background-color: #ebebeb;
+  border: 1px solid #e3e3e3;
+  padding: 15px;
+}
+.comments-container.media-list li.comment-box .comment-box-right .comment-box-username {
+  font-size: 14px;
+  font-style: italic;  
+  line-height: 1.5;
+}
+.comments-container.media-list li.comment-box .comment-box-right .comment-box-username a {
+  font-size: 14px;
+  font-style: italic;
+  font-weight: bold;    
+  line-height: 1.5;
+  padding: 0 5px;
+} 
+.comments-container.media-list li.comment-box .comment-box-right a.e-comment-reply {
+  font-size: 14px;
+  font-style: italic;
+  color: #999;
+  line-height: 1.5;  
+  margin: 0;
+  border: none;
+  -moz-border-radius: 0;
+	-khtml-border-radius: 0;
+	-webkit-border-radius: 0;
+  border-radius: 0; 
+  background-color: transparent;
+  text-transform: none;
+  padding: 0 5px;
+}
+.comments-container.media-list li.comment-box .comment-box-right a.e-comment-reply::after {
+  color: #999;
+  content: "\f021";
+  display: inline-block;
+  font-family: FontAwesome;
+  font-size: 14px;
+  margin: 0 0 0 5px;
+  vertical-align: top;
+}
+.comments-container.media-list li.comment-box .comment-box-right a.e-comment-reply:hover {
+  background-color: transparent;
+  color: #1d1d1c;
+}
+.comments-container.media-list li.comment-box .comment-box-right a:hover.e-comment-reply::after {
+  color: #d5685a;
+}
+.comments-container.media-list li.comment-box .comment-box-right .comment-text {
+  font-size: 14px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.comments-container.media-list li.comment-box .comment-box-right a.e-comment-edit,
+.comments-container.media-list li.comment-box .comment-box-right a.e-comment-delete,
+.comments-container.media-list li.comment-box .comment-box-right a.e-comment-approve {
+  font-size: 13px;
+  font-style: italic;
+  color: #999;
+  line-height: 1.5;  
+  margin: 0;
+  padding: 0 5px;
+  border: none;
+  -moz-border-radius: 0;
+	-khtml-border-radius: 0;
+	-webkit-border-radius: 0;
+  border-radius: 0; 
+  background-color: transparent;
+  text-transform: none;
+}
+.comments-container.media-list li.comment-box .comment-box-right a.e-comment-edit::after {
+  color: #999;
+  content: "\f044";
+  display: inline-block;
+  font-family: FontAwesome;
+  font-size: 13px;
+  margin: 0 0 0 5px;
+  vertical-align: top;
+}
+.comments-container.media-list li.comment-box .comment-box-right a.e-comment-delete::after {
+  color: #999;
+  content: "\f00d";
+  display: inline-block;
+  font-family: FontAwesome;
+  font-size: 13px;
+  margin: 0 0 0 5px;
+  vertical-align: top;
+}
+.comments-container.media-list li.comment-box .comment-box-right a.e-comment-approve::after {
+  color: #999;
+  content: "\f00c";
+  display: inline-block;
+  font-family: FontAwesome;
+  font-size: 13px;
+  margin: 0 0 0 5px;
+  vertical-align: top;
+}
+.comments-container.media-list li.comment-box .comment-box-right a.e-comment-edit:hover,
+.comments-container.media-list li.comment-box .comment-box-right a.e-comment-delete:hover,
+.comments-container.media-list li.comment-box .comment-box-right a.e-comment-approve:hover {
+  background-color: transparent;
+  color: #1d1d1c;
+}
+.comments-container.media-list li.comment-box .comment-box-right a:hover.e-comment-edit::after,
+.comments-container.media-list li.comment-box .comment-box-right a:hover.e-comment-delete::after,
+.comments-container.media-list li.comment-box .comment-box-right a:hover.e-comment-approve::after {
   color: #d5685a;
 }
 
