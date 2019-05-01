@@ -4,12 +4,21 @@
 http://fizithemes.hu/
 
 ## Category: 
+
 e107 theme for News website
 
 ### Needed not core plugins:
+
 -  the HITS plugin by e107inc https://github.com/e107inc/hits
 
+## Needed core plugins (they have to be installed before the theme installation):
+
+-  banner plugin
+
+-  poll plugin 
+
 ## Download:
+
 http://en.fizithemes.hu/download/86/bs-magazine-02
 
 ## Description:
