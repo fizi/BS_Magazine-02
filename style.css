@@ -100,6 +100,10 @@ img { border: none; outline: none; }
   -webkit-box-shadow: none;
   box-shadow: none;
 }
+#header .navbar-fixed-top {
+  position: initial;
+}
+
 #header ul.nav > li > a {
   font: 12px Arial;
   color: #b6b6b6;
