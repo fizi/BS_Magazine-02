@@ -12,16 +12,26 @@ e107 theme for News website
 ## Download:
 http://en.fizithemes.hu/download/86/bs-magazine-02
 
+## Description:
+
 In English:
+
 http://en.fizithemes.hu/news/view/135/free-themes/free-theme-bs-magazine-02
 
-Demo: 
- 
-<img src="http://en.fizithemes.hu/media/img/1800x1400/2017-04/preview_magazine_02_.jpg" />
+## Demo: 
 
-Support:
+not available yet
+ 
+## Preview: 
+
+<img src="https://raw.githubusercontent.com/fizi/BS_Magazine-02/master/preview_full.jpg" />
+
+## Support:
+
 http://en.fizithemes.hu/forum/help-e107-v2/318/bs-magazine-02/
+
 or
+
 https://www.e107.sk/forum/bs-magazine-02-theme-by-fizi/
 
 
