@@ -1,0 +1,21 @@
+EXPLANATION
+
+For all template files use: {LAN=SOMETHING_XXX} (without the '. .' ) which will render LAN_SOMETHING_XXX
+
+eg. instead of this:
+<h4 class="card_title">'.LAN_SOMETHING_000.'</h4>
+use this:
+<h4 class="card_title">{LAN=SOMETHING_000}</h4>
+
+You'll need to use the latest github version with has that change in lan.php (START is version 2.3.1), 
+so you can omit the LAN_ from the beginning of the variable.
+
+
+As of 23 feb 2021 changes made on shortcode/lan.php applies to version 2.3.1 and up
+
+
+plugin added language files : 
+For the LANs, if a term appears in both the frontend and the backend (admin), just put them in English_front.php
+ - we can always load the English_front in the admin area as well as English_admin.php
+
+English_global.php is loaded on every page of the site, so it should only ever contain a few defines at most.
